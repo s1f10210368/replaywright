@@ -8,7 +8,7 @@ let fierdtext = "";
 const audioElement = document.getElementById("audioElement");
 
 // OpenAIのAPIキーとエンドポイント
-const apiKey = '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';
+const apiKey = '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';
 const apiEndpoint = 'https://api.openai.com/v1/chat/completions';
 
 // ユーザーインタラクション用のボタン要素

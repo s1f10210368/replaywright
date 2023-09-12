@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { ChangeEvent, useState } from 'react'
 import superagent from 'superagent'
 import './App.css'
 import rokuon from './App'
@@ -46,7 +46,6 @@ const App = () => {
   if (!inputText){
     setInputText('a');
   }
-  
   const startrecord = async() => {
     let data = rokuon();
       setInputText(String(data));
