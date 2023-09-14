@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useState } from 'react'
+import React, { useState } from 'react'
 import superagent from 'superagent'
 import './App.css'
 import rokuon from './App'
