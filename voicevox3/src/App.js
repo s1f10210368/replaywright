@@ -11,12 +11,7 @@ const audioElement = document.getElementById("audioElement");
 const apiKey = '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';
 const apiEndpoint = 'https://api.openai.com/v1/chat/completions';
 
-// ユーザーインタラクション用のボタン要素
-/*const startButton = document.getElementById("start");*/
-/*
-const stopButton = document.getElementById("stop");
-const gptButton = document.getElementById("GPT");
-*/
+
 
 
 // 開始ボタンがクリックされたときのイベントリスナー
